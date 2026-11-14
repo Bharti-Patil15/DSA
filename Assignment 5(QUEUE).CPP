@@ -92,6 +92,35 @@ void main()
 
 
 }
+//Output :
+/*
+Enter size of Queue 3
+
+ 1.Insert 2.Display 3.Delete 4.Exit 
+
+ Enter ch: 1
+
+ Enter an Element in Queue = 23
+
+ Enter ch: 1
+
+ Enter an Element in Queue = 54
+
+ Enter ch: 1
+
+ Enter an Element in Queue = 42
+
+ Enter ch: 2
+
+ Elements in queue are : 23     54      42
+ Enter ch: 3
+
+ Deleted element is  23
+ Enter ch: 2
+
+ Elements in queue are : 54     42
+ Enter ch: 4
+*/
 
 
 
