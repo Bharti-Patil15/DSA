@@ -1,5 +1,5 @@
 
-#include <iostream>
+#include <iostream.h>
 #include <conio.h> 
 #include<string.h>
 using namespace std;
@@ -71,13 +71,13 @@ void convert::display()
 {
     cout << "\nPostfix Expression is :" << postfix;
 }
-int main()
+void main()
 {
-    
+    clrscr();
     convert c;
     c.post();
     c.display();
-    return 0;
+    getch();
 }
 //OUTPUT : 
 /*
