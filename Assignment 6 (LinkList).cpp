@@ -1,4 +1,4 @@
-#include <iostream>
+#include <iostream.h>
 #include <conio.h> 
 #include<process.h> 
 using namespace std;
@@ -14,7 +14,7 @@ public:
     void search();
     void sum();
 };
-node *mve, *start = NULL, *temp;
+node *move, *start = NULL, *temp;
 void node::insert()
 {
     cout << "\nEnter the item : ";
@@ -26,10 +26,10 @@ void node::insert()
         start = node1;
     else
     {
-        mve = start;
-        while (mve->link != NULL)
-            mve = mve->link;
-        mve->link = node1;
+        move = start;
+        while (move->link != NULL)
+            move = move->link;
+        move->link = node1;
     }
 }
 void node::dis()
@@ -90,9 +90,9 @@ void node::search()
     else
         cout << "\nElement is not found ";
 }
-int main()
+void main()
 {
-    
+    clrscr();
     node n;
     int ch;
     cout << "\n1.Insert 2.Display 3. Delete 4.Search 5.Sum 6.Exit\n";
@@ -121,7 +121,7 @@ int main()
             exit(0);
         }
     } while (ch != 6);
-    return 0;
+    getch();
 }
 //OUTPUT :
 /*
